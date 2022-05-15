@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %} Купить товар {% endblock %}
+<div class="container"></div>
+{% block content %}
+<h3>Купить товар {{ item.title }} </h3>
+<h3>Цена товара {{ item.price}}</h3>
+<button type="button" class="w-100 btn btn-lg btn-outline-primary">Оплатить</button>
+</div>
+
+{% endblock %}
